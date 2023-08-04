@@ -2,7 +2,7 @@
 # and a simple continuous integration pipeline on Github actions
 # (to test in different operationg systems and versions of python)
 
-# from typing import Collection
+from typing import Collection
 
 
 class Person:
