@@ -1,7 +1,7 @@
 # This repo will show how to create automated unit tests using pytest
 # and a simple continuous integration pipeline on Github actions
 # (to test in different operationg systems and versions of python)
-
+from __future__ import annotations
 from typing import Collection
 
 
