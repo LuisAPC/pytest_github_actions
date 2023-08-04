@@ -19,11 +19,11 @@ class Person:
 
     @property
     def surname(self) -> str:
-        name = self.name.split(" ")[1]
+        name = self.name.split(" ")[-1]
         return name if name != self.forename else None
 
     def celebrate_birthday(self) -> None:
         self.age += 1
 
     def add_job(self, title: str) -> None:
-        self.job.append(title)
+        self.jobs.append(title)
